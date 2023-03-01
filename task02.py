@@ -1,5 +1,5 @@
 
-from collections import Sequence
+from collections.abc import Sequence
 
 def check_fibonacci(data: Sequence[int]) -> bool:
     a = 0
